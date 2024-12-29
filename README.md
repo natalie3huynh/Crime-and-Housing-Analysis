@@ -31,3 +31,69 @@ We decided to analyze the relationship between our variables using a Spearmen Co
 
 ## Findings
 ![Avg Distribution](models/avg_dist.png)
+![Regions](models/regions.png)
+
+### Descriptive Statistics:
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Violent Crime Rate</th>
+      <th>average_2022</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>midwest</th>
+      <td>523.183258</td>
+      <td>233259.354064</td>
+    </tr>
+    <tr>
+      <th>northeast</th>
+      <td>388.811669</td>
+      <td>538087.532439</td>
+    </tr>
+    <tr>
+      <th>south</th>
+      <td>385.838530</td>
+      <td>316623.388311</td>
+    </tr>
+    <tr>
+      <th>west</th>
+      <td>368.179761</td>
+      <td>653252.965102</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+The Midwest has the highest mean violent crime rate at about 523.18, but the lowest average home value index at about 233259.35. Conversely, we can also see that the West has the lowest mean violent crime rate at about 368.18 and the highest average home value index at about 6.53e+05. The northeast does not follow the predicted trend; despite being ranked as the second highest crime rate region, it still has a relatively high average home value index and is ranked as the second most expensive.
+
+### Spearmen Correlations:
+northeast: -0.4895104895104896 
+midwest: -0.6451612903225806 
+south: -0.5566792056687954 
+west: -0.4245423182493516
+
+Upon conducting a Spearman correlation analysis between violent crime rates and average home values across all regions, we observed a consistent negative correlation. This suggests that areas with lower violent crime rates tend to exhibit higher average home values, while regions with higher crime rates tend to have lower average home values. The strongest negative correlation was observed in the Midwest, followed by the South, Northeast, and West.
+
+In the **Midwest** region, we found the strongest negative correlation, with a Spearman correlation coefficient of about **-0.65**. This information is consistent with our boxplots above, as we saw the Midwest had higher crime rates and a low concentration of home value indices than the other regions. 
+
+Following the Midwest, the **South** region exhibited the next strongest negative correlation, with a coefficient of **-0.56**. In the **Northeast** region, we observed a moderate negative correlation, with a coefficient of **-0.49**. Lastly, the **West** region displayed the weakest negative correlation, with a coefficient of **-0.42**. Overall, these Spearman correlation coefficients are not strong enough to be considered causational, but they do provide valuable insights into the relationship between violent crime rates and average home values for these regions. 
+
+## Conclusion
+After exploring and analyzing our data on differing home values in accordance with crime rates, we reject our hypothesis that cities with higher housing values are associated with lower crime rates, while cities with lower housing values are associated with higher crime rates. Each region possesses a negative correlation in the spearman correlation tests we ran, with the Midwest showing the strongest negative correlation, indicating low housing values and high crime rates, which is consistent with our hypothesis. While the Northeast, South, and North regions also show a negative correlation, they are not strong enough to make a statement on whether our data and analysis supports our hypothesis, hence why we reject it. Ultimately, there are no profound findings that would lead us to firmly conclude whether or not home values are correlated with certain crime rates.
