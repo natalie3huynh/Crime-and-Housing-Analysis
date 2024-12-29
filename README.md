@@ -34,7 +34,6 @@ We decided to analyze the relationship between our variables using a Spearmen Co
 ![Regions](models/regions.png)
 
 ### Descriptive Statistics:
-Descriptive Statistics:
 
 | Region     | Violent Crime Rate | average_2022     |
 |------------|--------------------|------------------|
