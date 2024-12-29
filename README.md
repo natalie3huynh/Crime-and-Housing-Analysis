@@ -46,10 +46,12 @@ Descriptive Statistics:
 The Midwest has the highest mean violent crime rate at about 523.18, but the lowest average home value index at about 233259.35. Conversely, we can also see that the West has the lowest mean violent crime rate at about 368.18 and the highest average home value index at about 6.53e+05. The northeast does not follow the predicted trend; despite being ranked as the second highest crime rate region, it still has a relatively high average home value index and is ranked as the second most expensive.
 
 ### Spearmen Correlations:
-northeast: -0.4895104895104896 
-midwest: -0.6451612903225806 
-south: -0.5566792056687954 
-west: -0.4245423182493516
+| Region    | Correlation        |
+|-----------|--------------------|
+| midwest   | -0.6451612903225806|
+| northeast | -0.4895104895104896|
+| south     | -0.5566792056687954|
+| west      | -0.4245423182493516|
 
 Upon conducting a Spearman correlation analysis between violent crime rates and average home values across all regions, we observed a consistent negative correlation. This suggests that areas with lower violent crime rates tend to exhibit higher average home values, while regions with higher crime rates tend to have lower average home values. The strongest negative correlation was observed in the Midwest, followed by the South, Northeast, and West.
 
