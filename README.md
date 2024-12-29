@@ -34,52 +34,14 @@ We decided to analyze the relationship between our variables using a Spearmen Co
 ![Regions](models/regions.png)
 
 ### Descriptive Statistics:
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+Descriptive Statistics:
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Violent Crime Rate</th>
-      <th>average_2022</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>midwest</th>
-      <td>523.183258</td>
-      <td>233259.354064</td>
-    </tr>
-    <tr>
-      <th>northeast</th>
-      <td>388.811669</td>
-      <td>538087.532439</td>
-    </tr>
-    <tr>
-      <th>south</th>
-      <td>385.838530</td>
-      <td>316623.388311</td>
-    </tr>
-    <tr>
-      <th>west</th>
-      <td>368.179761</td>
-      <td>653252.965102</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+| Region     | Violent Crime Rate | average_2022     |
+|------------|--------------------|------------------|
+| midwest    | 523.183258         | 233259.354064    |
+| northeast  | 388.811669         | 538087.532439    |
+| south      | 385.838530         | 316623.388311    |
+| west       | 368.179761         | 653252.965102    |
 
 The Midwest has the highest mean violent crime rate at about 523.18, but the lowest average home value index at about 233259.35. Conversely, we can also see that the West has the lowest mean violent crime rate at about 368.18 and the highest average home value index at about 6.53e+05. The northeast does not follow the predicted trend; despite being ranked as the second highest crime rate region, it still has a relatively high average home value index and is ranked as the second most expensive.
 
