@@ -13,8 +13,8 @@ This report intends to do the following in Sections 1 and 2:
 1) Identify whether or not there is a connection between FBI reported crime rates and single family housing values across cities. 
 2) Examine the relationship between FBI reported crime rates and single family housing values on a regional level.
 
-[!NOTE]
-Analysis is only conducted on 2022 data. This is mainly due to the fact that the [2021 FBI Crime Rate data](https://www.themarshallproject.org/2022/10/08/the-problem-with-the-fbi-s-missing-crime-data) was largely incomplete after the FBI switched out their data collection system to the National Incident-Based Reporting System (NIBRS). Consequently, missingness in data was high since ~7,000 police agencies had failed to switch systems. 
+>[!NOTE]
+>Analysis is only conducted on 2022 data. This is mainly due to the fact that the [2021 FBI Crime Rate data](https://www.themarshallproject.org/2022/10/08/the-problem-with-the-fbi-s-missing-crime-data) was largely incomplete after the FBI switched out their data collection system to the National Incident-Based Reporting System (NIBRS). Consequently, missingness in data was high since ~7,000 police agencies had failed to switch systems. 
 
 ## Datasets and Organization
 | Dataframe               | Source                               | # of States | # of Observations | Missingness/Excluded Data                        |
@@ -26,7 +26,7 @@ Analysis is only conducted on 2022 data. This is mainly due to the fact that the
 ## Statistical Analysis
 We decided to analyze the relationship between our variables using a Spearmen Correlation test since our data modeling exhbited a non-linear correlation between Violent Crime Rate and Home Value Indices. 
 
-[!NOTE]
-A Spearmen rank correlation examines the relationship between two variables and does not depend on a linear relationship. A stronger, positive correlation will be closer to +1, while a lower, dissimilar correlation is closer to a value of -1. 
+>[!NOTE]
+>A Spearmen rank correlation examines the relationship between two variables and does not depend on a linear relationship. A stronger, positive correlation will be closer to +1, while a lower, dissimilar correlation is closer to a value of -1. 
 
 ## Findings
