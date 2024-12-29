@@ -30,4 +30,4 @@ We decided to analyze the relationship between our variables using a Spearmen Co
 >A Spearmen rank correlation examines the relationship between two variables and does not depend on a linear relationship. A stronger, positive correlation will be closer to +1, while a lower, dissimilar correlation is closer to a value of -1. 
 
 ## Findings
-![alt text](image-2.png)
+![Avg Distribution](image.png)
