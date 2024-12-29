@@ -27,7 +27,7 @@ This report intends to do the following in Sections 1 and 2:
 We decided to analyze the relationship between our variables using a Spearmen Correlation test since our data modeling exhbited a non-linear correlation between Violent Crime Rate and Home Value Indices. 
 
 >[!NOTE]
->A Spearmen rank correlation examines the relationship between two variables and does not depend on a linear relationship. A stronger, positive correlation will be closer to +1, while a lower, dissimilar correlation is closer to a value of -1. 
+>A [Spearmen rank correlation](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient) examines the relationship between two variables and does not depend on a linear relationship. A stronger, positive correlation will be closer to +1, while a lower, dissimilar correlation is closer to a value of -1. 
 
 ## Findings
 ![Avg Distribution](models/avg_dist.png)
