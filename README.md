@@ -3,7 +3,7 @@
 
 ## File Navigation:
 - crime.csv: 2022 FBI Crime Rate Dataset 
-- FinalProject_Group121_WI24.ipynb: Full project write up and analysis
+- FinalProject_Group121_WI24.ipynb: Full project write up and analysis. See file for in depth EDA and Ethics/Privacy.
 
 ## Background and Overview
 When individuals are making decisions on where to relocate based on job opportunities, amenities, or accessibility to public transit, one of the largest factors often includes safety. Here, we measure safety by crime rates and identify the relationship between Violent Crime rate Reports and Housing Values across the U.S. 
